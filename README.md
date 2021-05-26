@@ -137,6 +137,14 @@ In the [scripts/extra](https://github.com/Cartucho/mAP/tree/master/scripts/extra
     chair 0.292345 0 199 88 436
     book 0.269833 433 260 506 336
     ```
+    
+#### Output images 
+- Find output images: `output/images`
+- Color explanations: 
+    - green -> TP: True Positives (object detected and matches ground-truth)
+    - red -> FP: False Positives (object detected but does not match ground-truth)
+    - pink -> FN: False Negatives (object not detected but present in the ground-truth)
+
 ## Authors:
 * **João Cartucho**
 
