@@ -34,7 +34,7 @@
     After runnuning darknet on a list of images, e.g.: `darknet.exe detector test data/voc.data yolo-voc.cfg yolo-voc.weights -dont_show -ext_output < data/test.txt > result.txt`
 
     1) Copy the file `result.txt` to the folder `input/detection-results`
-    2) Run the python script: `python convert_dr_yolo.py`
+    2) Run the python script: `python convert_dr_yolo.py` (or `python convert_dr_yolov4.py`)
 
 - ### convert keras-yolo3 to our format:
 
